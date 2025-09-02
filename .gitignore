@@ -1,2 +1,6 @@
 .idea/
 .DS_Store
+
+python_like_tools/.dart_tool
+
+python_like_tools/pubspec.lock
