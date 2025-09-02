@@ -6,3 +6,5 @@ d.rotate(-1)
 print(d)
 
 from itertools import *
+
+Counter

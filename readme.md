@@ -1,3 +1,4 @@
 # python_like_tools
 
-python_like_tools是一个Python标准模块collections、itertools的部分实现
+`python_like_tools `is a Dar implementation of Python's collections, itertools and other standard modules.
+

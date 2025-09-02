@@ -1,0 +1,14 @@
+{
+  "roots": [
+    "python_like_tools"
+  ],
+  "packages": [
+    {
+      "name": "python_like_tools",
+      "version": "0.0.1",
+      "dependencies": [],
+      "devDependencies": []
+    }
+  ],
+  "configVersion": 1
+}

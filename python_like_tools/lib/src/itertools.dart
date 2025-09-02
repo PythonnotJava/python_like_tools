@@ -11,7 +11,7 @@ Iterable<T> chain<T>(Iterable<Iterable<T>> iterators) sync* {
 /// Combinations is used to generate all possible combinations of a given iterable object.
 /// You need to specify the length of the combination. This is C(n, k) in permutations and combinations.
 /// C(n, k) represents the number of combinations of k elements from n elements.
-/// Reference: https://docs.python.org/3/library/itertools.html#itertools.combinations
+/// Reference: https://docs.python.org/3/library/itertools.html #itertools.combinations
 Iterable<List<T>> combinations<T>(List<T> iterable, int r) sync* {
   final n = iterable.length;
   if (r > n || r < 0) return;
@@ -41,3 +41,14 @@ Iterable<int> count([int start = 0, int step = 1]) sync* {
     value += step;
   }
 }
+
+/// Loop iterator, this method will reference an iterator object.
+/// Reference: https://docs.python.org/3/library/itertools.html#itertools.cycle
+Iterable<T> cycle<T>(Iterable<T> iterable) sync* {
+  while (iterable.isNotEmpty) {
+    for (var element in iterable) {
+      yield element;
+    }
+  }
+}
+

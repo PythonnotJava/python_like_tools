@@ -1,0 +1,18 @@
+name: python_like_tools
+
+environment:
+  sdk: '>=3.0.0 < 4.0.0'
+
+description: python_like_tools is a Dar implementation of Python's collections, itertools and other standard modules.
+
+homepage: https://pythonnotjava.github.io/
+repository: https://github.com/PythonnotJava/python_like_tools
+documentation: https://pythonnotjava.github.io/
+issue_tracker: https://github.com/PythonnotJava/
+
+version: 0.0.1
+
+topics:
+  - iterator
+  - deque
+  - collection
