@@ -2,6 +2,7 @@ import 'dart:collection';
 
 /// A Counter counts hashable elements. Similar to Python's collections.Counter.
 /// Elements are stored as keys and their counts as values.
+/// Reference: https://docs.python.org/3/library/collections.html#collections.Counter
 class Counter<K> extends MapBase<K, int> {
   final Map<K, int> _map = {};
 
