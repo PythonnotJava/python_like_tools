@@ -11,7 +11,7 @@
 
 ## 💡 Support
 
-| name         | function                                                                |
+| name         | reference                                                               |
 |--------------|-------------------------------------------------------------------------|
 | chain        | https://docs.python.org/3/library/itertools.html#itertools.chain        |
 | combinations | https://docs.python.org/3/library/itertools.html#itertools.combinations |
