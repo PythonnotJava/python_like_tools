@@ -1,6 +1,6 @@
 # python_like_tools
 
-`python_like_tools `is a Dar implementation of Python's collections, itertools and other standard modules.
+`python_like_tools `is a Dart implementation of Python's collections, itertools and other standard modules.
 
 ## ☞ Publish Address
 
