@@ -10,7 +10,7 @@ repository: https://github.com/PythonnotJava/python_like_tools
 documentation: https://pythonnotjava.github.io/
 issue_tracker: https://github.com/PythonnotJava/
 
-version: 0.0.1
+version: 0.0.3
 
 topics:
   - iterator

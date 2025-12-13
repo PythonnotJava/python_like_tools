@@ -1,5 +1,6 @@
 import 'dart:collection' show LinkedHashMap;
 
+/// Slicable dictionary implementation.Slicing can be done like a [List].The core operation is [slice].
 class SliceableMap<K, V> implements Map<K, V> {
   final LinkedHashMap<K, V> _inner = LinkedHashMap<K, V>();
 
@@ -9,7 +10,10 @@ class SliceableMap<K, V> implements Map<K, V> {
     }
   }
 
-  /// ===== 切片功能 =====
+  /// The core implementation of the slicing function.
+  /// When [start] is null, it defaults to index 0; when [end] is null, it defaults to the [length];
+  /// the slice interval is left-closed and right-open.
+  /// The slicing operation automatically handles abnormal ranges.
   SliceableMap<K, V> slice(int? start, [int? end]) {
     start ??= 0;
     end ??= length;
@@ -28,7 +32,6 @@ class SliceableMap<K, V> implements Map<K, V> {
     return result;
   }
 
-  /// ===== Map 接口实现 =====
   @override
   V? operator [](Object? key) => _inner[key];
 
@@ -95,7 +98,7 @@ class SliceableMap<K, V> implements Map<K, V> {
 
   @override
   Map<K2, V2> map<K2, V2>(
-      MapEntry<K2, V2> Function(K key, V value) transform) =>
+          MapEntry<K2, V2> Function(K key, V value) transform) =>
       _inner.map(transform);
 
   @override

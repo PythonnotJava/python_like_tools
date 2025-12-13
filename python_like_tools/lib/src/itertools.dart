@@ -51,4 +51,3 @@ Iterable<T> cycle<T>(Iterable<T> iterable) sync* {
     }
   }
 }
-

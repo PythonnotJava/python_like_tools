@@ -107,4 +107,3 @@ class Deque<T> extends Iterable<T> {
   @override
   String toString() => "Deque($_data, maxlen=$maxlen)";
 }
-
