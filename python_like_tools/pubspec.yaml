@@ -3,7 +3,7 @@ name: python_like_tools
 environment:
   sdk: '>=3.0.0 < 4.0.0'
 
-description: python_like_tools is a Dar implementation of Python's collections, itertools and other standard modules.
+description: python_like_tools is a Dart implementation of Python's collections, itertools and other standard modules.
 
 homepage: https://pythonnotjava.github.io/
 repository: https://github.com/PythonnotJava/python_like_tools
